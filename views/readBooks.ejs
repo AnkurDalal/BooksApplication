@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <%for(let i of books){%>
+     <!-- <h1><%=i.bookid%></h1>
+      
+      <h1><%=i.bookauthor%></h1>
+      <h1><%=i.bookcost%></h1>-->>
+      <a href="/read/books/<%=i.bookid%>"><%=i.bookname%></a>
+  <% }%>
+</body>
+</html>
